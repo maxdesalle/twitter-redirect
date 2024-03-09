@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "OpenAI to Claude Redirect",
+    "name": "Twitter to TweetDeck Redirect",
     "version": "1.0",
-    "description": "Redirects chat.openai.com to claude.ai/chats",
-    "permissions": ["webRequest", "webRequestBlocking", "*://chat.openai.com/*"],
+    "description": "Redirects twitter.com to tweetdeck.twitter.com",
+    "permissions": ["webRequest", "webRequestBlocking", "*://twitter.com/*"],
     "background": {
       "scripts": ["background.js"],
       "persistent": true
