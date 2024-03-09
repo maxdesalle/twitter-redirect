@@ -1,7 +1,7 @@
 chrome.webRequest.onBeforeRequest.addListener(
-    function(details) {
-      return { redirectUrl: "https://claude.ai/chats" };
-    },
-    {urls: ["*://chat.openai.com/*"]},
-    ["blocking"]
-  );
+	function (details) {
+		return { redirectUrl: "https://tweetdeck.twitter.com" };
+	},
+	{ urls: ["*://twitter.com/"] },
+	["blocking"]
+);

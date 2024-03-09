@@ -1,13 +1,13 @@
 # ChatGPT to Claude Redirect Chrome Extension
 
-This is a simple Chrome extension that redirects `chat.openai.com` to `claude.ai/chats` in your browser.
+This is a simple Chrome extension that redirects `twitter.com` to `tweetdeck.twitter.com` in your browser.
 
 ### Installation
 
 1. Clone this repository or download the ZIP file and extract it to a folder on your computer.
 
 ```
-git clone https://github.com/yourusername/openai-to-claude-redirect.git
+git clone https://github.com/yourusername/twitter-redirect.git
 ```
 
 2. Open Google Chrome and go to chrome://extensions.
