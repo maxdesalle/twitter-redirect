@@ -1,11 +1,13 @@
 {
-    "manifest_version": 2,
-    "name": "Twitter to TweetDeck Redirect",
-    "version": "1.0",
-    "description": "Redirects twitter.com to tweetdeck.twitter.com",
-    "permissions": ["webRequest", "webRequestBlocking", "*://twitter.com/*"],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": true
-    }
+  "manifest_version": 3,
+  "name": "Twitter to TweetDeck Redirect",
+  "version": "1.0",
+  "description": "Automatically redirects twitter.com to tweetdeck.twitter.com",
+  "permissions": ["webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://twitter.com/*"
+  ]
 }
